@@ -17,9 +17,11 @@ function NavBar() {
           </button>
         </div>
         <div id="navbar-main" className="navbar-collapse collapse">
-          <ul className="nav navbar-nav">
+          <ul className="nav navbar-nav list-unstyled">
             <li>
-            <NavLink to={"about"}>Hakkında</NavLink> 
+            <NavLink to={"about"}>Hakkında</NavLink>
+            <NavLink to={"login"}>Giriş Yap</NavLink>
+            <NavLink to={"register"}>Kayıt Ol</NavLink>
             </li>
         
           </ul>
