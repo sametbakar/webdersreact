@@ -17,13 +17,18 @@ function NavBar() {
           </button>
         </div>
         <div id="navbar-main" className="navbar-collapse collapse">
-          <ul className="nav navbar-nav list-unstyled">
+          <ul className="nav navbar-nav ">
             <li>
             <NavLink to={"about"}>Hakkında</NavLink>
-            <NavLink to={"login"}>Giriş Yap</NavLink>
-            <NavLink to={"register"}>Kayıt Ol</NavLink>
             </li>
-        
+            <li>
+
+            <NavLink to={"login"}>Giriş Yap</NavLink>
+            </li>
+        <li>
+          
+            <NavLink to={"register"}>Kayıt Ol</NavLink>
+        </li>
           </ul>
         </div>
       </div>
